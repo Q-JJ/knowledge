@@ -1,0 +1,15 @@
+// place your custom styles here
+.vp-nav-logo {
+    vertical-align: top;
+    height:4rem;
+    margin-inline-end: 0.5rem;
+}
+.vp-navbar {
+    --navbar-line-height: calc( 5.5rem - var(--navbar-vertical-padding) * 2 );
+}
+
+
+
+.vp-blog-mask {
+    background: url(/girl.jpg) center center / cover no-repeat !important;
+}
