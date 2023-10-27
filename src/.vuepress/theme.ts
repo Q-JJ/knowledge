@@ -54,10 +54,9 @@ export default hopeTheme({
       "/demo/encrypt.html": ["1234"],
     },
   },
-
   plugins: {
     blog: true,
-
+    copyCode:true,
     comment: {
       comment: false,
       // You should generate and use your own comment service

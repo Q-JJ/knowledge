@@ -5,7 +5,7 @@ icon: home
 title: 主页
 heroImage: /cat2.svg
 heroText: 湫的知识海洋
-heroFullScreen: true
+heroFullScreen: false
 tagline: 真正的大师，永远怀着一颗学徒的心
 projects:
   - icon: project

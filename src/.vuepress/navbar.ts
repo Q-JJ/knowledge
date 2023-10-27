@@ -4,7 +4,7 @@
  * @Author: JnannJ
  * @Date: 2023-10-17 17:20:59
  * @LastEditors: JnannJ
- * @LastEditTime: 2023-10-24 23:23:50
+ * @LastEditTime: 2023-10-26 21:27:46
  */
 import { navbar } from "vuepress-theme-hope";
 
@@ -29,6 +29,14 @@ export default navbar([
         prefix: "框架学习/",
         children: [
           { text: "Vue", icon: "pen-to-square", link: "Vue" },
+        ],
+      },
+      {
+        text: "项目实战",
+        icon: "pen-to-square",
+        prefix: "项目实战/",
+        children: [
+          { text: "湫管理系统", icon: "pen-to-square", link: "湫管理系统" },
         ],
       },
     ],

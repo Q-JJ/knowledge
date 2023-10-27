@@ -5,7 +5,7 @@
  # @Author: JnannJ
  # @Date: 2023-10-18 15:38:08
  # @LastEditors: JnannJ
- # @LastEditTime: 2023-10-18 16:12:50
+ # @LastEditTime: 2023-10-24 23:33:22
 ### 
 set -e
 
@@ -28,3 +28,5 @@ git commit -m 'deploy'
 git push -f git@github.com:Q-JJ/knowledge.git master:gh-pages
 
 cd -
+
+# 先提交整部分代码，然后进入项目根目录，git bash打开。运行deploy.sh：npm run deploy
