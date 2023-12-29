@@ -54,4 +54,9 @@ article: false
 
 vue.js是采用**数据劫持**结合**发布者-订阅者模式**的方式，通过`Object.defineProperty()`来劫持各个属性的setter和getter，在数据变动时发布消息给订阅者，触发相应的监听回调。
 
+:::info Object.defineProperty()的缺点
+ 只能监听到数据的修改，监听不到数据的新增和删除，从而不能触发组件更新渲染。
+ 
+ vue2中会对数组的新增删除方法push、pop、shift、unshift、splice、sort、reserve通过重写的形式，在拦截里面进行手动收集触发依赖更新。
+:::
 

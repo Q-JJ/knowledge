@@ -9,6 +9,8 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
+  "/qianduan/基础/HTML和CSS":"structure",
+  "/qianduan/基础/JS":"structure",
   "/qianduan/基础/TypeScript":"structure",
   "/qianduan/框架学习/Vue":"structure",
 

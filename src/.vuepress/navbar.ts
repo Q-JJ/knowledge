@@ -20,7 +20,10 @@ export default navbar([
         icon: "pen-to-square",
         prefix: "基础/",
         children: [
+          { text: "HTML和CSS", icon: "pen-to-square", link: "HTML和CSS" },
+          { text: "JS", icon: "pen-to-square", link: "JS" },
           { text: "TypeScript", icon: "pen-to-square", link: "TypeScript" },
+          
         ],
       },
       {

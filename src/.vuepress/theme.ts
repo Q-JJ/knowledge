@@ -1,6 +1,10 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+import { getDirname, path } from "@vuepress/utils";
+
+const __dirname = getDirname(import.meta.url);
+
 
 export default hopeTheme({
   hostname: "https://q-jj.github.io/knowledge/",
@@ -45,7 +49,13 @@ export default hopeTheme({
       GitHub: "https://example.com",
       QQ: "https://example.com",
       Wechat: "https://example.com",
-      Lark:"https://www.yuque.com/u33335366/kfzs"
+      Lark:"https://www.yuque.com/u33335366/kfzs",
+      // MediaY: [
+      //   // 链接
+      //   "https://mediay.com/UserY/",
+      //   // 图标地址
+      //   path.resolve(__dirname, "public/assets/icon/12.png"),
+      // ],
     },
   },
   // 加密
