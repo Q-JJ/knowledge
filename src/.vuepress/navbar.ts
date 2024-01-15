@@ -32,6 +32,7 @@ export default navbar([
         prefix: "框架学习/",
         children: [
           { text: "Vue", icon: "pen-to-square", link: "Vue" },
+          { text: "React", icon: "pen-to-square", link: "react" },
         ],
       },
       {

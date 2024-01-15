@@ -13,7 +13,7 @@ export default sidebar({
   "/qianduan/基础/JS":"structure",
   "/qianduan/基础/TypeScript":"structure",
   "/qianduan/框架学习/Vue":"structure",
-
+  "/qianduan/框架学习/react":"structure",
 
   "/经验小记":"structure",
 });
