@@ -19,3 +19,5 @@ article: false
 - [echart 自适应问题解决](10-23.md)
 
 - [前端笔试知识点](3-15.md)
+
+- [Vue3组件通信应用（porps/emit）](24-1-2.md)

@@ -10,7 +10,7 @@ export default hopeTheme({
   hostname: "https://q-jj.github.io/knowledge/",
 
   author: {
-    name: "QJJ",
+    name: "Yivn",
   },
   breadcrumb :false,
   iconAssets: "iconfont",
@@ -31,13 +31,13 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "Yivn",
   // 是否默认显示页脚
   displayFooter: true,
 
   // blog 描述
   blog: {
-    description: "一个前端开发者",
+    description: "寡言的前端开发者.",
     intro: "/intro.html",
     roundAvatar: true,
     avatar: "/logo.png",
@@ -45,10 +45,7 @@ export default hopeTheme({
     // sidebarDisplay:'always',
     medias: {
       Email: "mailto:J001222@163.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      QQ: "https://example.com",
-      Wechat: "https://example.com",
+      GitHub: "https://github.com/Q-JJ",
       Lark:"https://www.yuque.com/u33335366/kfzs",
       // MediaY: [
       //   // 链接
